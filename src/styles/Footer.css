@@ -1,0 +1,92 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.subscribe {
+    flex: 2;
+}
+
+.subscribe p {
+    margin: 5px 0;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe input[type='text'] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe .register-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f39c12;
+    color: black;
+    cursor: pointer;
+}
+
+.subscribe .register-btn:hover {
+    background-color: #e67e22;
+}
+
+.get-it {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get-it a {
+    margin-bottom: 10px;
+}
+
+.get-it img {
+    height: 40px;
+}
+
+.catagory, .become-seller, .about {
+    display: flex;
+    flex-direction: column;
+}
+
+.catagory a, .become-seller a, .about a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.catagory a:hover, .become-seller a:hover, .about a:hover {
+    text-decoration: underline;
+}
+
+.about h {
+    font-size: 24px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}

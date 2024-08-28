@@ -1,0 +1,81 @@
+/* Navbar CSS */
+nav {
+    background-color: #ac7c2c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-most {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Equal gap between elements */
+}
+
+form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust max width to fit well in navbar */
+}
+
+form input[type="text"] {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: black;
+}
+
+form button {
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: #ddd;
+}
+
+.right-most a,
+.right-most button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.right-most a:hover,
+.right-most button:hover {
+    color: #ddd;
+}
