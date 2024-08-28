@@ -6,12 +6,13 @@ const Footer = () => {
     return (
         <footer>
             <div className='subscribe'>
-                <p>Subscribe To Our News Letter</p>
+                <h2>Subscribe To Our News Letter</h2>
                 <p>Always Be The First To Hear New Information About The Products You Buy</p>
                 <form>
                     <input type='text' placeholder='' />
                     <button className='register-btn'>Register</button>
                 </form>
+                <button className='register-btn2'>Register</button>
 
             </div>
             <div className='get-it'>
@@ -38,12 +39,14 @@ const Footer = () => {
                 <a href=''>Contact Us</a>
             </div>
             <div className='about'>
-                <h>Seregela</h>
+                <h1>Seregela</h1>
                 <a href=''>About Seregela</a>
                 <a href=''>Our Responsibility</a>
                 <a href=''>Vision</a>
             </div>
-            <p>Powered by <a href='https://zowitech.com/'>Zowithech</a></p>
+            <div className='powered-by'>
+                <p>Powered by <a href='https://zowitech.com/'>Zowithech</a></p>
+            </div>
         </footer>
     )
 }
